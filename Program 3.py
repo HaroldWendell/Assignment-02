@@ -1,0 +1,7 @@
+money = int(input('Amount of cash you have: '))
+price = int(input('Price of an apple: '))
+Maximum_apples_you_can_buy = int(money/price)
+remaining_money = float(money-(Maximum_apples_you_can_buy*price))
+print(f'Maximum apple you can buy: {Maximum_apples_you_can_buy} pieces.')
+print(f'Your remaining money will be: {remaining_money} pesos.')
+print(f'You can buy {Maximum_apples_you_can_buy} apples and your change is {remaining_money} pesos.')
